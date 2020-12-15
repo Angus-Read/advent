@@ -1,0 +1,18 @@
+import java.util.*;
+import java.io.*;
+public class day2{
+    public static void main(String[] args) throws Exception{
+	File file = new File("./input.txt");
+	Scanner sc = new Scanner(file);
+	ArrayList<Integer> numbers = new ArrayList<Integer>();
+	while(sc.hasNextLine()){
+	    numbers.add(Integer.parseInt(sc.nextLine()));
+	    System.out.println(sc.nextLine());
+	}
+	
+	//	while(!numbers.isEmpty()){
+	int cur = 0;
+	int amt = 0;
+        
+    }
+}
